@@ -1,0 +1,27 @@
+.perspectiveText {
+  transition: transform 0.75s cubic-bezier(0.75, 0, 0.24, 1);
+  transform-style: preserve-3d;
+}
+
+.perspectiveText > p {
+  transition: all 0.75s cubic-bezier(0.75, 0, 0.24, 1);
+}
+
+.perspective2 {
+  transform: rotateX(-90deg) translateY(11px);
+  transform-origin: bottom center;
+  opacity: 0;
+}
+
+.element:hover > .perspectiveText {
+  transform: rotateX(90deg);
+}
+
+.element:hover > .perspectiveText > .perspective1 {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.element:hover > .perspectiveText > .perspective2 {
+  opacity: 1;
+}

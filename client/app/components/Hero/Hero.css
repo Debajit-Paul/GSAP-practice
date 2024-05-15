@@ -1,0 +1,6 @@
+.bg-overlay {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #b3b3b3e6 0%, #646960eb 100%);
+  opacity: 0.91;
+  mix-blend-mode: multiply;
+}

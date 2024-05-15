@@ -1,0 +1,4 @@
+.center {
+  transform-origin: center;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}

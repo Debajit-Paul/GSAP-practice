@@ -1,0 +1,20 @@
+.linksContainer {
+  perspective: 120px;
+  perspective-origin: bottom;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.175rem;
+  background: black;
+  transform: scale(0, 1);
+  transform-origin: 0% 100%;
+  transition: transform 0.5s ease;
+}
+
+.link:hover::after {
+  transform: scale(1, 1);
+}

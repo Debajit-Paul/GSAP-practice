@@ -1,0 +1,15 @@
+.serviceContainer:last-of-type {
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.serviceContainer:hover {
+  opacity: 0.5;
+}
+
+.serviceContainer:hover > div {
+  transform: translateX(-10px);
+}
+
+.serviceContainer:hover > p {
+  transform: translateX(10px);
+}
